@@ -16,105 +16,166 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <header class="header">
-      <img class="header_logo" src="./img/nike_logo.svg" alt="Nike logo" />
-      <ul class="header_list">
-        <li class="header_item">
-          <a class="header_link" href="#">Main page</a
-          ><a class="header_link" href="#">Benefits</a
-          ><a class="header_link" href="#">Advantages</a
-          ><a class="header_link" href="#">Reviews</a
-          ><a class="header_link" href="#">Contacts</a
-          ><a class="header_link" href="#">order</a>
-        </li>
-      </ul>
-    </header>
-    <section class="nike">
-      <img class="nike_logo" src="./img/nike_logo.svg" alt="Nike logo" />
-      <h1 class="nike_title">С&R</h1>
-      <h1 class="nike_title">ColoRawe</h1>
-      <h2 class="nike_title3">Your dream Nike</h2>
-      <p class="nike_text">
-        On this site you can find custom Nike sneakers of your dreams. <br />
-        The original company caт`t create such beautiful <br />
-        sneakers as we do. <br />
-        Good luck finding your way in the world of custom sneakers
-      </p>
-      <button class="nike_btn">Buy my Nike</button>
-    </section>
-    <section class="pictures">
-      <div class="pictures_content">
-        <ul class="pictures_title">
-          <li class="pictures_item">
-            <h3 class="pictures_title">
-              Premium <br />
-              Quality
-            </h3>
-            <hr class="pictures_line" />
-            <img src="./img/stars.svg" alt="stars" />
-            <img src="./img/colors.svg" alt="colors" />
-            <h3 class="pictures_title">
-              Indelible <br />
-              paint
-            </h3>
-            <hr class="pictures_line" />
-            <img src="./img/delivery.png" alt="shipping" />
-            <h3 class="pictures_title">
-              Fast <br />
-              shipping
-            </h3>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="coments">
-      <img class="coments_picture" src="./img/flovers.png" alt="flovers" />
-      <h2 class="revievs_title-title">Reviews</h2>
+  <header class="header"> 
+    <div class="container"> 
+      <a class="header_logo" href="#" 
+        ><img src="./img/nike_logo.svg" alt="logo" 
+      /></a> 
+      <div class="header-promo_logo promo_logo"> 
+        <img src="" alt="logo" /> 
+        <h3 class="promo_logo-title">С&R</h3> 
+      </div> 
+      <div class="header_adaptive-block"> 
+        <nav class="header_navigation"> 
+          <ul class="header_menu"> 
+            <li class="header_item"> 
+              <a class="header_menu-link" href="#main">Main page</a> 
+            </li> 
+            <li class="header_item"> 
+              <a class="header_menu-link" href="#">Benefits</a> 
+            </li> 
+            <li class="header_item"> 
+              <a class="header_menu-link" href="#advantages">Advantages</a> 
+            </li> 
+            <li class="header_item"> 
+              <a class="header_menu-link" href="#reviews">Reviews</a> 
+            </li> 
+            <li class="header_item"> 
+              <a class="header_menu-link" href="#contacts">Contacts</a> 
+            </li> 
+            <li class="header_item"> 
+              <a class="header_menu-link" href="#order">Order</a> 
+            </li> 
+          </ul> 
+        </nav> 
+        <div class="header_language"> 
+          <a class="header_menu-link" href="#">Ua</a> 
+          <a class="header_menu-link" href="#">Eng</a> 
+        </div> 
+      </div> 
 
-      <div class="revies_slader-container">
-        <div class="revies_list">
-          <div class="revies_item-revievs_item-first">
-            <p class="revies_item-descr">
-              Sneakers are very <br />
-              comfortable and well <br />
-              painted, nothing has <br />
-              worn off in a year.
-            </p>
-            <span class="revievs_item-text revies_item-date">25.11</span>
-            <div class="revies_item-box">
-              <div class="revievs_item-img">
-                <img src="./img/john.svg" alt="john" />
-              </div>
-              <div class="revievs_item-text">
-                <h4 class="revievs_item-title">John Teylor</h4>
-                <h5 class="revievs_item-text revies_item-subtittle">
-                  With us from 2018
-                </h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="revies_item revievs_item-second">
-            <p class="revies_item-descr">
-              I'm very happy with <br />
-              this color scheme. <br />
-              They match all my clothes.
-            </p>
-            <span class="revievs_item-text revies_item-date">05.01</span>
-            <div>
-              <div class="revievs_item-img">
-                <img src="./img/elizabet.svg" alt="elizabet" />
-              </div>
-              <div class="revievs_item-text">
-                <h4 class="revievs_item-title">Elizabeth Garsia</h4>
-                <h5 class="revievs_item-text revies_item-subtittle">
-                  With us from 2020
-                </h5>
-              </div>
-            </div>
-          </div>
-
+    </div> 
+  </header>
+  <main> 
+    <section class="promo" id="main">  
+      <div class="container"> 
+        <div class="promo_logo promo_main-logo"> 
+          <img src="./img/nike_logo.svg" alt="logo" /> 
+          <h3 class="promo_logo-title">С&R</h3> 
+        </div> 
+        <h1 class="promo_title">ColoRawe</h1> 
+        <h2 class="promo_subtitle">Your dream Nike</h2> 
+        <p class="promo_descr"> 
+          On this site you can find custom Nike sneakers of your dreams. 
+          <br /> 
+          The original company caт`t create such beautiful <br /> 
+          sneakers as we do. 
+          <br /> 
+          Good luck finding your way in the world of custom sneakers. 
+        </p> 
+        <button class="promo_btn btn">Buy my Nike</button> 
+      </div> 
+    </section> 
+    <section class="advantages" id="advantages"> 
+      <div class="container"> 
+        <ul class="advantages_list"> 
+          <li class="advantages_item"> 
+            <div class="advantages_block"> 
+              <h3 class="advantages_item-title"> 
+                Premium <br /> 
+                Quality 
+              </h3> 
+              <div class="advantages_img"> 
+                <img src="./img/stars.svg" alt="star" /> 
+              </div> 
+            </div> 
+          </li> 
+          <li class="advantages_item"> 
+            <div class="advantages_block"> 
+              <h3 class="advantages_item-title"> 
+                Indelible <br /> 
+                paint 
+              </h3> 
+              <div class="advantages_img"> 
+                <img src="./img/colors.svg" alt="star" /> 
+              </div> 
+            </div> 
+          </li> 
+          
+          <li class="advantages_item"> 
+            <div class="advantages_block"> 
+              <h3 class="advantages_item-title"> 
+                Fast <br /> 
+                shipping 
+              </h3> 
+              <div class="advantages_img"> 
+                <img src="./img/delivery.png" alt="star" /> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div> 
+    </section> 
+   
+    <section class="reviews" id="reviews"> 
+      <div class="container"> 
+        <h2 class="reviews_title title">Reviews</h2> 
+        <div class="reviews_sleder-container"> 
+          <div class="reviews_list"> 
+            <div class="reviews_item-first"> 
+              <p class="reviews_item-descr"> 
+                Sneakers are very comfortable and well painted, nothing has 
+                worn off in a year. 
+              </p> 
+              <span class="reviews_item-text reviews_item-data">25.11</span> 
+              <div class="reviews_item-box"> 
+                <div class="reviews_item-img"> 
+                  <img src="./img/john.svg" alt="john" /> 
+                </div> 
+                <div class="reviews_item-text"> 
+                  <h4 class="reviews_item-title">John Teylor</h4> 
+                  <h5 class="reviews_item-text2 reviews_item-subtitle"> 
+                    With us from 2018 
+                  </h5> 
+                </div> 
+              </div> 
+            </div> 
+            <div class="reviews_item-second"> 
+              <p class="reviews_item-descr"> 
+                I'm very happy with this color scheme. They match all my 
+                clothes. 
+              </p> 
+              <span class="reviews_item-text reviews_item-data">05.01</span> 
+              <div class="reviews_item-box"> 
+                <div class="reviews_item-img"> 
+                  <img src="./img/elizabet.svg" alt="elis" /> 
+                </div> 
+                <div class="reviews_item-text"> 
+                  <h4 class="reviews_item-title">Elizabeth Garsia</h4> 
+                  <h5 class="reviews_item-text reviews_item-subtitle"> 
+                    With us from 2020 
+                  </h5>
+                </div> 
+              </div> 
+            </div> 
+            <div class="reviews_item-third"> 
+              <p class="reviews_item-descr"> 
+                Just right if you need <br> to go to a party. <br>
+                I use them actively, <br> the paint is super.
+              </p> 
+              <span class="reviews_item-text reviews_item-data">18.06</span> 
+              <div class="reviews_item-box"> 
+                <div class="reviews_item-img"> 
+                  <img src="./img/tom.svg" alt="Tom" /> 
+                </div> 
+                <div class="reviews_item-text"> 
+                  <h4 class="reviews_item-title">Tom Maquare</h4> 
+                  <h5 class="reviews_item-text reviews_item-subtitle"> 
+                    With us from 2019
+                  </h5>
+                </div> 
+              </div> 
+            </div> 
         
     </section>
     <section class="order">
@@ -124,6 +185,18 @@
       <input class="order_information-box" type="text" placeholder="Your Country">
       <input class="order_information-box" type="text" placeholder="Your City">
       <input class="order_information-box" type="text" placeholder="Your Adress">
+    </section>
+    <section class="navigation">
+    <div class="contaoner">
+      <h4 class="navigation_title">Have a question?</h4> <a class="navigation_nav" href="#">ColoRawe_support@gmail.com</a>
+      <h4 class="navigation_title">Have a proposal for cooperation?</h4><a class="navigation_nav" href="#">ColoRawe_Cooperation@gmail.com</a>
+      <h4 class="navigation_title">Advertising questions?</h4><a class="navigation_nav" href="#">ColoRawe_Advertising@gmail.com</a>
+    <hr class="navigation_hr">
+    <h6 class="navigation_subtitle">2022 ColoRawe @All rights reserved</h6>
+    <h6 class="navigation_subtitle">United States</h6>
+    <img src="./img/nike_logo.svg" alt="nike_logo">
+    <h1 class="navigation_nike_name">С&R</h1>
+  </div>
     </section>
   </body>
 </html>
