@@ -285,15 +285,37 @@ line-height: normal;
 }
 .order_email{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 75px 13px 25px;
     align-items: center;
     width: 690px;
 height: 60px;
 flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
+color: #959595;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.order_email input{
+    border: none;
+}
+.input_email{
+     
+height: 33.673px;
+color: #8D8D8D;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #FFF;
+border: #FFF;
 }
 .order_btn{
+    margin-left: 200px;
+    align-items: center;
     color: #FFF;
     width: 248px;
 height: 68px;
@@ -358,17 +380,31 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.Your_country{
-    width: 580px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #FFF;
-}
 .order_your{
+    margin-left: 60px;
     width: 580px;
     height: 50px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
+    color: #959595;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.order_your input{
+    border: none;
+}
+.footer_copyright{
+    color:#FFF;
+}
+.footer_copyright span{
+    display: block;
+    margin-top: 7px;
+}
+.footer_logo{
+    margin-right: 154px;
+    display: flex;
+    flex-direction: column;
 }
