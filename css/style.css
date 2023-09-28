@@ -237,6 +237,13 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.reviews_item-box{
+    display: flex;
+    align-items: center;
+    margin-top:35px ;
+    
+    
+}
 .reviews_item-text{
     color: #D8D8D8;
 font-family: Roboto;
@@ -244,6 +251,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 0;
 }
 .reviews_item-title{
     color: #FFF;
@@ -252,6 +260,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin:0;
 }
 .reviews_item-text2{
     color: #D8D8D8;
@@ -268,10 +277,15 @@ line-height: normal;
     width: 1110px;
     margin: 0 auto;
 }
-form{
-    display: block;
-    margin-top: 0em;
-}
+.order_form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 33px; 
+   
+} 
 .order .container{
     display: flex;
     flex-direction: column;
@@ -287,10 +301,25 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.order_form input { 
+    border-radius: 50px; 
+    background: #FFF; 
+    border: none; 
+    outline: none; 
+    color: #959595; 
+    font-size: 28px; 
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
+    padding: 11px 0 11px 25px; 
+} 
 .order_email{
+    
     display: flex;
     justify-content: space-between;
-    padding: 12px 75px 13px 25px;
+     
     align-items: center;
     width: 690px;
 height: 60px;
@@ -302,29 +331,38 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.order_email>input[type="button"] { 
+    cursor: pointer; 
+} 
 .order_email input{
     border: none;
 }
-.input_email{
-     
-height: 33.673px;
+.order_form input[type="text"] { 
+    border: none; 
+    outline: none; 
+    width: 580px; 
+    height: 50px; 
+} 
+.btn_email{ 
 color: #8D8D8D;
 font-size: 28px;
 font-style: normal;
-font-weight: 400;
+
 line-height: normal;
 background-color: #FFF;
 border: #FFF;
 }
 .order_btn{
-    margin-left: 200px;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 48px;
     color: #FFF;
     width: 248px;
 height: 68px;
 flex-shrink: 0;
 border-radius: 16px;
 background: #8E32C6;
+border: none;
 }
 .container{
     width: 1110px;
@@ -384,7 +422,8 @@ font-weight: 400;
 line-height: normal;
 }
 .order_your{
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
     width: 580px;
     height: 50px;
     flex-shrink: 0;
